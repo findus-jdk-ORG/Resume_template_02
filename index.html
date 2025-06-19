@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="fade-in">Hi I'm Rushit Andhariya! Web Developer</h1>
+                    <p class="fade-in">Creating seamless and innovative web experiences that blend aesthetics with functionality. I specialize in front-end and back-end development, bringing your ideas to life with modern technologies. Let’s build something amazing together!</p>
+                    <button class="cta-button" type="button" onclick="handleDownload()">Download Resume</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section project-sec">
+            <div class="container">
+                <h2 class="project-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="./assets/saturntiles.png" class="project-image" alt="Project 1">
+                        <h3>Saturn Tiles</h3>
+                        <p>Corporate website for Saturn Tiles — a premium tiles brand. Designed and developed a responsive, modern UI to showcase their product range and enhance brand presence online.</p>
+                        <div class="project-links">
+                            <a href="https://saturntiles.com" target="_blank" class="button">View Demo</a>
+                            <!-- <a href="#" class="button">Source Code</a> -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/primestay.png" class="project-image" alt="Project 2">
+                        <h3>PrimeStay Properties</h3>
+                        <p>PrimeStay Properties is a full-stack MERN application developed as my final-year college project. It enables users to list, browse, and manage rental properties with key features like property search and filtering, and an admin dashboard for managing listings — all built using MongoDB, Express.js, React, and Node.js.</p>
+                        <div class="project-links">
+                            <a href="#" class="button" target="_blank">View Demo</a>
+                            <!-- <a href="#" class="button">Source Code</a> -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/trixcape.png" class="project-image" alt="Project 3">
+                        <h3>Trixcape</h3>
+                        <p>Trixcape is a creative web design concept focused on interactive UI elements and smooth animations. Built to showcase modern front-end development skills with a strong visual aesthetic.</p>
+                        <div class="project-links">
+                            <a href="#" class="button" target="_blank">View Demo</a>
+                            <!-- <a href="#" class="button">Source Code</a> -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/scrollnews.png" class="project-image" alt="Project 3">
+                        <h3>Scroll News</h3>
+                        <p>ScrollNews is a modern news web app featuring infinite scroll, dynamic category filtering, and real-time headlines. Built with React and integrated with a news API to deliver a seamless reading experience.</p>
+                        <div class="project-links">
+                            <a href="#" class="button" target="_blank">View Demo</a>
+                            <!-- <a href="#" class="button">Source Code</a> -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/TEXT100-COLOR-LOGO-01-copy.jpg" class="project-image" alt="Project 3">
+                        <h3>Text Hundred</h3>
+                        <p>A curated collection of creative social media post designs crafted using tools like Photoshop and Illustrator. Showcases a blend of typography, color theory, and visual storytelling — featured on @text.hundred.</p>
+                        <div class="project-links">
+                            <a href="https://www.instagram.com/text.hundred/" target="_blank" class="button">View Demo</a>
+                            <!-- <a href="#" class="button">Source Code</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+              <h2 class="section-title">Skills</h2>
+              <p class="skills-description">
+                Skilled React.js developer with expertise in building dynamic, responsive web applications, currently advancing knowledge in the MERN stack (MongoDB, Express.js, React.js, Node.js) to deliver full-stack solutions.
+              </p>
+          
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <img src="./assets/html.png" alt="HTML5 Logo" />
+                  <h3>HTML</h3>
+                </div>
+                <div class="skill-card">
+                  <img src="./assets/css-logo.png" alt="CSS3 Logo" />
+                  <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                  <img src="./assets/js.png" alt="JavaScript Logo" />
+                  <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/mongo-db-logo-removebg-preview.png" alt="React Logo" />
+                    <h3>MongoDB</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/expressjs-removebg-preview.png" alt="React Logo" />
+                    <h3>Express.js</h3>
+                </div>
+                <div class="skill-card">
+                  <img src="./assets/react-logo-removebg-preview.png" alt="React Logo" />
+                  <h3>React.js</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/node-js-logo-removebg-preview.png" alt="React Logo" />
+                    <h3>Node.js</h3>
+                </div>
+                <!-- Add more skill-cards as needed -->
+              </div>
+            </div>
+          </section>
+          
+<!-- About Section -->
+<section id="about" class="about-section">
+    <div class="container">
+      <h2 class="about-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="./assets/me.png" alt="Profile Picture" />
+        </div>
+        <div class="about-text glass-card">
+          <p>Hello! I'm a passionate web developer with a keen eye for design and a love for creating beautiful, functional websites. I’ve worked on various projects from small business sites to full-stack apps.</p>
+          <p>When I'm not coding, I’m exploring new technologies, contributing to open-source, or enjoying nature.</p>
+          <div class="about-details">
+            <div class="detail">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Bachelor of Computer Application</span>
+            </div>
+            <div class="detail">
+              <i class="fas fa-briefcase"></i>
+              <span>5+ Years Experience</span>
+            </div>
+            <div class="detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Bhavnagar, Gujarat, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- contact Section -->
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>rushandhariya19@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+            <p>+91 9825000000</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Location</h3>
+            <p>Bhavnagar, Gujarat, India</p>
+          </div>
+        </div>
+  
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="f370f984-792f-4ea9-8252-629ce9f33af8" />
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit"  class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/rushitandhariya19" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rushit-andhariya-0a5449303/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+            </div>
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
