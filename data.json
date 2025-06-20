@@ -1,0 +1,136 @@
+{
+  "profile": {
+    "name": "Rushit Andhariya",
+    "title": "Web Developer",
+    "description": "Creating seamless and innovative web experiences that blend aesthetics with functionality. I specialize in front-end and back-end development, bringing your ideas to life with modern technologies. Let’s build something amazing together!",
+    "resumeButton": "Download Resume",
+    "resumeLink": "./resume.pdf"
+  },
+  "projects": [
+    {
+      "title": "Saturn Tiles",
+      "description": "Corporate website for Saturn Tiles — a premium tiles brand. Designed and developed a responsive, modern UI to showcase their product range and enhance brand presence online.",
+      "image": "./assets/saturntiles.png",
+      "demoLink": "",
+      "codeLink": ""
+    },
+    {
+      "title": "PrimeStay Properties",
+      "description": "PrimeStay Properties is a full-stack MERN application developed as my final-year college project. It enables users to list, browse, and manage rental properties with key features like property search and filtering, and an admin dashboard for managing listings — all built using MongoDB, Express.js, React, and Node.js.",
+      "image": "./assets/primestay.png",
+      "demoLink": "#",
+      "codeLink": ""
+    },
+    {
+      "title": "Trixcape",
+      "description": "Trixcape is a creative web design concept focused on interactive UI elements and smooth animations. Built to showcase modern front-end development skills with a strong visual aesthetic.",
+      "image": "./assets/trixcape.png",
+      "demoLink": "#",
+      "codeLink": ""
+    },
+    {
+      "title": "Scroll News",
+      "description": "ScrollNews is a modern news web app featuring infinite scroll, dynamic category filtering, and real-time headlines. Built with React and integrated with a news API to deliver a seamless reading experience.",
+      "image": "./assets/scrollnews.png",
+      "demoLink": "#",
+      "codeLink": ""
+    },
+    {
+      "title": "Text Hundred",
+      "description": "A curated collection of creative social media post designs crafted using tools like Photoshop and Illustrator. Showcases a blend of typography, color theory, and visual storytelling — featured on @text.hundred.",
+      "image": "./assets/TEXT100-COLOR-LOGO-01-copy.jpg",
+      "demoLink": "",
+      "codeLink": ""
+    }
+  ],
+  "skills": {
+    "description": "Skilled React.js developer with expertise in building dynamic, responsive web applications, currently advancing knowledge in the MERN stack (MongoDB, Express.js, React.js, Node.js) to deliver full-stack solutions.",
+    "items": [
+      {
+        "name": "HTML",
+        "image": "./assets/html.png"
+      },
+      {
+        "name": "CSS",
+        "image": "./assets/css-logo.png"
+      },
+      {
+        "name": "JavaScript",
+        "image": "./assets/js.png"
+      },
+      {
+        "name": "MongoDB",
+        "image": "./assets/mongo-db-logo-removebg-preview.png"
+      },
+      {
+        "name": "Express.js",
+        "image": "./assets/expressjs-removebg-preview.png"
+      },
+      {
+        "name": "React.js",
+        "image": "./assets/react-logo-removebg-preview.png"
+      },
+      {
+        "name": "Node.js",
+        "image": "./assets/node-js-logo-removebg-preview.png"
+      }
+    ]
+  },
+  "about": {
+    "image": "./assets/profile-img.jpg",
+    "description": [
+      "Hello! I'm a passionate web developer with a keen eye for design and a love for creating beautiful, functional websites. I've worked on various projects from small business sites to full-stack apps.",
+      "When I'm not coding, I'm exploring new technologies, contributing to open-source, or enjoying nature."
+    ],
+    "details": [
+      {
+        "icon": "fas fa-graduation-cap",
+        "text": "Bachelor of Computer Application"
+      },
+      {
+        "icon": "fas fa-briefcase",
+        "text": "5+ Years Experience"
+      },
+      {
+        "icon": "fas fa-map-marker-alt",
+        "text": "Bhavnagar, Gujarat, India"
+      }
+    ]
+  },
+  "contact": {
+    "items": [
+      {
+        "icon": "fas fa-envelope",
+        "title": "Email",
+        "text": ""
+      },
+      {
+        "icon": "fas fa-phone",
+        "title": "Phone",
+        "text": "+91 9825000000"
+      },
+      {
+        "icon": "fas fa-map-marker-alt",
+        "title": "Location",
+        "text": "Bhavnagar, Gujarat, India"
+      }
+    ],
+    "form": {
+      "action": "https://api.web3forms.com/submit",
+      "accessKey": ""
+    }
+  },
+  "social": [
+    {
+      "icon": "fab fa-github",
+      "link": "https://github.com/rushitandhariya19"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/in/rushit-andhariya-0a5449303/"
+    }
+  ],
+  "footer": {
+    "text": "© 2025 My Portfolio. All rights reserved."
+  }
+}
